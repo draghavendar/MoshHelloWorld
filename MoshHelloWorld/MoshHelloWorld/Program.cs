@@ -73,19 +73,19 @@ namespace MoshHelloWorld
             ///
             #endregion
 
-            //#region Non compatable conversion example with error handling
-            //try
-            //{
-            //    var number = "1234";
-            //    byte b = Convert.ToByte(number);
-            //    Console.WriteLine(b);
-            //}
-            //catch (Exception)
-            //{
+            #region Non compatable conversion example with error handling
+            try
+            {
+                var number = "1234";
+                byte b = Convert.ToByte(number);
+                Console.WriteLine(b);
+            }
+            catch (Exception)
+            {
 
-            //    Console.WriteLine("Cannot convert string value to byte");
-            //}
-            //#endregion
+                Console.WriteLine("Cannot convert string value to byte");
+            }
+            #endregion
 
             #region compatable conversion example 2 with error handling
             try
@@ -99,7 +99,6 @@ namespace MoshHelloWorld
 
                 Console.WriteLine("Cannot convert string value to byte");
             }
-
             #endregion
 
         }
