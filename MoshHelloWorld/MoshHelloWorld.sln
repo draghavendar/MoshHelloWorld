@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoshHelloWorld", "MoshHelloWorld\MoshHelloWorld.csproj", "{BC6D0D06-0169-45A1-B985-A6B185B51BD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals", "CSharpFundamentals\CSharpFundamentals.csproj", "{A580B91E-16A2-481C-8705-C4661C5B32B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BC6D0D06-0169-45A1-B985-A6B185B51BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC6D0D06-0169-45A1-B985-A6B185B51BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC6D0D06-0169-45A1-B985-A6B185B51BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A580B91E-16A2-481C-8705-C4661C5B32B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A580B91E-16A2-481C-8705-C4661C5B32B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A580B91E-16A2-481C-8705-C4661C5B32B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A580B91E-16A2-481C-8705-C4661C5B32B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
